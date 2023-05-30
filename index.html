@@ -259,11 +259,9 @@
             </span>
             <button onclick="myFunction()" id="myBtn" class="r d-xl-none">Read more</button>
         </p>
-     <!--   <a href="./adm.pdf"><button type="button" class="btn btn-outline-primary mb-3" id="bts">DOWNLOAD CV</button>
-        </a>-->
-	     <a><button type="button" class="btn loadings btn-outline-primary mb-3" id="bts">GET BATTERY</button>
-        </a>
-
+     <a href="./adm.pdf"><button type="button" class="btn btn-outline-primary mb-3" id="bts">DOWNLOAD CV</button>
+	    </a>
+	     
     </div>
 
     <hr id="skill">
@@ -499,32 +497,7 @@ function offFunction() {
 }
 </script>
 
-	    <script>
-function bat(){
-navigator.getBattery()
-  .then(function(battery) {
-    var a = battery.level;
-	a= a.toString();
-	var b =a.slice(2);
-	alert(b);
 	
-
-
-Swal.fire({
-  title: 'Your Battey percaentage is '+ b,
-  showClass: {
-    popup: 'animate__animated animate__fadeInDown'
-  },
-  hideClass: {
-    popup: 'animate__animated animate__fadeOutUp'
-  }
-});
-	
-	
-	
-});
-}
-</script>
 </body>
 
 </html>
