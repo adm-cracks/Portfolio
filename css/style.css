@@ -176,9 +176,7 @@
 }
 
 @media(max-width:991px) {
-    .preloader video{
-        height: 20rem;
-    }
+   
     .nam h4 {
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         font-weight: bold;
