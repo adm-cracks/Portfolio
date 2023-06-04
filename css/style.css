@@ -103,9 +103,20 @@
 .nam h1 {
     font-family: 'Alfa Slab One', cursive;
     font-family: 'Poppins', sans-serif;
-    font-size: 75px;
-    text-shadow: 16px -16px 10px rgba(255, 255, 255, 0.61);
+    font-size: 85px;
+    font-weight: bolder;
+    /*text-shadow: 16px -16px 10px rgba(255, 255, 255, 0.61);*/
     margin-top: 50px;
+    background-image: linear-gradient( -225deg, #000428 0%, #d8dde2 29%, #aa076b 67%, #0907a1 85%);
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #fff;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 4s linear reverse infinite;
+    display: inline-block;
 }
 
 .nam p {
