@@ -12,7 +12,7 @@ navigator.getBattery().then((battery) => {
     });
 
     function updateChargeInfo() {
-        document.getElementById("cha").innerHTML = `charging : ${battery.charging ? "Yes" : "No"}`;
+        document.getElementById("cha").innerHTML = `charging : ${battery.charging ? "✔️" : "❌"}`;
     }
 
     battery.addEventListener("levelchange", () => {
