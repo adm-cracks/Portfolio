@@ -116,3 +116,30 @@
         transform: rotate(405deg);
     }
 }
+@media(max-width:1400px) {
+    .ba {
+        display: block;
+        margin-left: 5rem;
+    }
+    .ch {
+        display: block;
+    }
+    .logo {
+        position: fixed;
+        margin-top: 8px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .ba {
+        display: block;
+        margin-left: 0;
+    }
+    .ch {
+        display: block;
+    }
+    .logo {
+        position: relative;
+        margin-top: 0;
+    }
+}
