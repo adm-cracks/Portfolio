@@ -6,7 +6,18 @@
     background-color: white;
 }
 
-
+.m {
+    color: aliceblue;
+    height: fit-content;
+    margin-right: 15px;
+    width: 400px;
+    margin-top: -10px;
+    margin-right: 70px;
+   
+}
+.m a {
+    margin-left: 15px;
+}
 /*menu*/
 
 @media(max-width:1400px) {
@@ -290,6 +301,27 @@
 
 /*skills*/
 
+
+.skillsnew {
+    width: 95%;
+    
+}
+.skillsnew h4{
+margin-bottom: 1rem;
+margin-top: 1rem;
+}
+.skillsnew img{
+    width: 3.5rem;
+    height: 3.5rem;
+}
+.skillsnew p{
+    font-size: .7rem;
+   margin-left: .5rem;
+   margin-top: .5rem;
+}
+
+
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 .skill {
     margin: 0;
@@ -298,7 +330,7 @@
     font-family: 'Poppins', sans-serif;
 }
 
-.skill-bars {
+/* .skill-bars {
     padding: 30px 30px;
     width: 900px;
     height: max-content;
@@ -468,7 +500,7 @@
 
 .git span::after {
     content: "82%";
-}
+} */
 
 
 /* Media Query */
@@ -709,11 +741,11 @@ h6 {
     display: none;
     position: sticky;
     top: 550px;
-    left: 75rem;
+    left: 90%;
     z-index: 99;
     border: none;
     outline: none;
-    background-color: rgba(0, 0, 255, 0.904);
+    background-color: rgba(0, 0, 255, 0.49);
     color: white;
     cursor: pointer;
     padding: 15px;
@@ -728,6 +760,8 @@ h6 {
 @media(max-width:991px) {
     #myBtn2 {
         top: 654px;
+        padding: 10px;
+        left: 80%;
     }
     .c {
         margin-top: 14px;
